@@ -1,0 +1,501 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+/* body part */
+body {
+    max-width: 585px;
+    border: 3px solid #000;
+    margin: 0px auto;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: normal;
+    min-height:100%;
+    border-radius: 10px;
+   
+}
+.innr-bdy{
+    background-color: #e7ecf2;
+   border-radius: 10px;
+   min-height: 100%;
+
+    
+}
+
+/* cmn_sec */
+.cmn_hdr h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+.cmn_hdr p{
+    margin-bottom: 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+   
+}
+
+/* pabitrajetpay(19.11.22) */
+#header_id{
+    background-color: #fff;
+    padding: 15px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    width: 30.20%;
+    margin: auto;
+
+}
+#header_id ul {
+  display: contents;
+
+}
+#header_id ul li i {
+    padding-right: 10px;
+
+}
+#header_id ul li a{
+    font-size: 18px;
+    font-family: 'Rajdhani', sans-serif;
+    color: #717171;
+
+}
+.pr-vlue h3{
+    margin: 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+}
+
+#header_id ul li a:hover {
+    color: #9831e0;
+
+}
+
+
+
+.navbar {
+    background-color: #fff;
+}
+/* profile-sec */
+.prof-innrsec{
+    position: relative;
+    z-index: 50;
+}
+.profile-sce{
+    margin-top: 86px;
+}
+
+.profmain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding:10px 0 30px;
+}
+
+.pr-pic {
+    height: 50px;
+    width: 50px;
+}
+
+.pr-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.prof-innr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #fff;
+    border-radius: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -30px;
+    z-index: 100;
+    position: relative;
+    padding: 20px 0;
+}
+
+.prof-picbx {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 5px 10px;
+    
+}
+
+.prof-outcnt h1{
+    font-size: 35px;
+color: #fff;
+
+}
+
+.pro-out {
+    background-color: #9831e0;
+    -webkit-clip-path: circle(157% at 50% -554%);
+            clip-path: circle(157% at 50% -554%);
+}
+
+.pr-vlue {
+    background-color: #9831e0;
+    color: #fff;
+    border-radius: 30px;
+    padding: 25px 50px;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 10px;
+
+}
+.pr-vlue span{
+    padding-right: 5px;
+}
+
+.pr-contnt h3 {
+    margin-bottom: 0;
+}
+
+.pr-contnt {
+    padding-left: 10px;
+
+}
+.follw-cnt h4{
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+    padding-top: 10px;
+}
+
+/* jetmnu-sce */
+.jetmnu-sce {
+ 
+    padding: 50px 0;
+}
+.jetmnu-sce .col-md-4:nth-child(4) .jtmnu-bx{
+    padding-top: 3px;
+}
+.jetmnu-sce .col-md-4:nth-child(4) .jtmnu-ic{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+.jetmnu-sce .col-md-4:nth-child(4) .jtmnu-ic img{
+    width: 100%;
+}
+.jetmnu-sce .col-md-4:nth-child(7) .jtmnu-bx{
+    padding-top: 3px;
+}
+.jetmnu-sce .col-md-4:nth-child(7) .jtmnu-ic{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+.jetmnu-sce .col-md-4:nth-child(7) .jtmnu-ic img{
+    width: 100%;
+}
+.jetmnu-sce .col-md-4:nth-child(9) .jtmnu-bx{
+    padding-top: 3px;
+}
+.jetmnu-sce .col-md-4:nth-child(9) .jtmnu-ic{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+.jetmnu-sce .col-md-4:nth-child(9) .jtmnu-ic img{
+    width: 100%;
+}
+.jetmnu-sce .col-md-4:nth-child(6) .jtmnu-bx{
+    padding-top: 3px;
+}
+.jetmnu-sce .col-md-4:nth-child(6) .jtmnu-ic{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+.jetmnu-sce .col-md-4:nth-child(6) .jtmnu-ic img{
+    width: 100%;
+}
+
+.jtmnu-bx {
+    text-align: center;
+}
+
+.jtmnu-bx {
+    background-color: #fff;
+    height: 70px;
+    border-radius: 45px;
+    width: 160px;
+    margin: auto;
+      margin-bottom: auto;
+    padding-top: 10px;
+    border: 1px solid transparent;
+  
+}
+.jtmnu-bx:hover{
+    border: 1px solid #9831e0;
+}
+
+
+.jtmnu-bx {
+    margin-bottom: 20px;
+}
+.jtmnu-ic .fa-wallet{
+    color: green;
+}
+.jtmnu-ic .fa-clock-rotate-left{
+    color: #f84234;
+}
+.jtmnu-ic .fa-gift{
+    color: #b366c4;
+}
+.jtmnu-ic .fa-user{
+    color: #84c6c2;
+}
+.jtmnu-ic .fa-coins{
+    color: #ff8b02;
+    
+}
+.jtmnu-ic .fa-tag{
+    color: #f84234;
+}
+.jtmnu-ic .fa-megaphone {
+    color: #005c83;
+}
+.jtmnu-ic .fa-shop{
+    color: #00ddc1;
+}
+
+
+/* followus-sec */
+.followus-sec {
+    padding-bottom: 35px;
+}
+
+.fllw-usic ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+
+}
+
+.fllw-usic ul li {
+    padding: 0 10px 10px 0;
+}
+
+.follw-main {
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.prof-outicn i {
+    color: #fff;
+}
+.fllw-usic ul li .fa-facebook{
+    color: blue;
+}
+.fllw-usic ul li .fa-whatsapp{
+    color: lawngreen;
+}
+.fllw-usic ul li .fa-google-plus{
+    color: red;
+}
+
+/* pabitrawithdraw(19.11.22) */
+.wprof.profile-sce {
+    margin-top: 0px;
+    position: fixed;
+    width: 30.2%;
+    z-index: 100;
+}
+.with-bckinn .prof-innr{
+    margin-top: 50px;
+}
+.wprof .prof-outcnt i{
+    padding-right: 10px;
+}
+.amnt-bx form{
+    width: 50%;
+    margin: auto;
+   
+}
+.amnt-bx .form-control{
+    border-radius: 30px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    outline: none;
+    border: none;
+
+}
+.amnt-bx{
+    padding-top: 15px;
+}
+.with-mnucnt{
+    padding-bottom: 15px;
+}
+
+.with-prcbtn .form-control {
+    width: 99%;
+    margin: auto;
+    background-color: #9831e0;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 25px;
+    padding: 13px 0;
+}
+.withic-sc .jtmnu-ic .fa-building-columns{
+    color: red;
+}
+.withic-sc .jtmnu-ic .fa-cc-stripe{
+    color: orange;
+}
+.withic-sc .jtmnu-ic .fa-cc-paypal{
+    color: blue;
+}
+.withic-sc .jtmnu-bx{
+    border: 1px solid #fff;
+}
+.withic-sc .jtmnu-bx:hover{
+    border: 1px solid #9831e0;
+}
+/* pabitraevent(20.11.22) */
+.evntmnu .prof-innr{
+    margin-bottom: 40px;
+}
+.evntmnu .prof-innr:last-child{
+    margin-bottom: 0px;
+}
+.evntmnu .pr-contnt {
+    padding-left: 15px;
+}
+.evntmnu .pr-pic {
+    padding: 6px 0 0 13px;
+}
+.evntmnu {
+    padding: 100px 0 100px;
+    position: relative;
+    z-index: 50;
+}
+.wprof .pro-out{
+    -webkit-clip-path: circle(76% at 50% -60%);
+            clip-path: circle(76% at 50% -60%);
+}
+.with-bckinn{
+    padding-top: 90px;
+}
+/* pabitra(histortybnnr) */
+.hisbnnr.profile-sce {
+    margin-top: 0px;
+    position: fixed;
+    width: 30.2%;
+}
+
+.hist-cntbx h3{
+    padding:20px 0 40px;
+
+}
+.hisbnnr .hist-cntbx{
+    padding-top: 65px;
+}
+.hisbnnr{
+    padding: 0 0 15px;
+}
+.hisbnnr .pr-contnt {
+    padding-left: 10px;
+  }
+  .hisbnnr .fa-wallet{
+    color: green;
+  }
+  .hisbnnr .fa-circle-dollar-to-slot{
+    color: palevioletred;
+  }
+  .hisbnnr .fa-calendar-days{
+    color: orange;
+  }
+  .hisbnnr .fa-circle-down{
+    color: #9831e0;
+  }
+  .wprof .profmain{
+    padding: 10px 0;
+  }
+  .pr-contnt h4{
+    font-size: 18px;
+    margin: 0;
+  }
+  .evntmnu .prof-innr{
+    margin-top: 35px;
+  }
+  .prof-outcnt h1 i{
+    font-size: 25px;
+  }
+  .evntmnu .pr-pic .fa-map-pin{
+    color: #5ec073;
+  }
+  .evntmnu .pr-pic .fa-laptop{
+    color: #80aaf4;
+  }
+  .evntmnu .pr-pic .fa-calendar-days{
+    color: #e0e27f;
+  }
+  .evntmnu .pr-pic .fa-ticket{
+   color: #f78d03;
+  }
+  .evntmnu .pr-pic .fa-mobile{
+    color: #bb63c7;
+  }
+  .hisbnnr .pr-contnt h4,.hisbnnr .pr-contnt h3{
+    color: #1c365b;
+    font-weight: 700;
+  }
+  .withic-sc{
+  padding: 90px 0;
+ 
+}   
+input[type=submit]{
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.withic-sc .fa-building-columns {
+    color: #f44532;
+}
+.withic-sc .fa-cc-paypal {
+    color: #68b3f6;
+}
+.withic-sc .fa-cc-stripe  {
+    color: #f88f00;
+}
+.amnt-bx .form-control {
+   padding: 15PX 0;
+  }
+  .amnt-bx .form-control {
+    padding: 15PX 85px;
+    font-size: 25px;
+}
